@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/time-track/static/css/main.8bf13167.css",
+    "main.js": "/time-track/static/js/main.7ab24721.js",
+    "index.html": "/time-track/index.html",
+    "main.8bf13167.css.map": "/time-track/static/css/main.8bf13167.css.map",
+    "main.7ab24721.js.map": "/time-track/static/js/main.7ab24721.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bf13167.css",
+    "static/js/main.7ab24721.js"
+  ]
+}

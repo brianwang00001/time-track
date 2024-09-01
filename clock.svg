@@ -1,0 +1,15 @@
+<!-- 
+run in terminal: 
+  convert -background none clock.svg -define icon:auto-resize=256,128,64,32,16 clock-logo.ico 
+-->
+
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 100 100">
+  <!-- Clock face -->
+  <rect x="5" y="5" width="90" height="90" rx="15" ry="15" fill="#282c34" stroke="#61dafb" stroke-width="6" />
+  
+  <!-- Hour hand (10:10 position) -->
+  <line x1="50" y1="50" x2="35" y2="31" stroke="#61dafb" stroke-width="6" stroke-linecap="round" />
+  
+  <!-- Minute hand (10:10 position) -->
+  <line x1="50" y1="50" x2="75" y2="25" stroke="#61dafb" stroke-width="6" stroke-linecap="round" />
+</svg>
