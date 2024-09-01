@@ -1,0 +1,43 @@
+:root {
+  --stroke-width: 4;
+}
+
+.Clock {
+  width: 100%;
+  height: 100%;
+}
+
+.clock-face {
+  fill: none;
+  stroke: var(--primary-color);
+  stroke-width: var(--stroke-width);
+}
+
+.hour-hand,
+.minute-hand {
+  stroke: var(--primary-color);
+  stroke-width: var(--stroke-width);
+  stroke-linecap: round;
+  transform-origin: 50px 50px;
+}
+
+.center-circle {
+  fill: var(--primary-color);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.hour-hand {
+  animation: rotate 96s linear infinite;
+}
+
+.minute-hand {
+  animation: rotate 8s linear infinite;
+}

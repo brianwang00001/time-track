@@ -1,0 +1,22 @@
+.button-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--text-color-dark);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #4fa8d5;
+}
+
+.file-input {
+  display: none;
+}

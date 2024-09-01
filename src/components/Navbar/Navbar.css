@@ -1,0 +1,67 @@
+.navbar {
+  background-color: var(--bg-color);
+  padding: 1rem;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease;
+}
+
+.navbar-logo {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo-container .Clock {
+  height: 100%;
+  width: auto;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-link {
+  color: var(--text-color-light);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: var(--primary-color);
+}
+
+.navbar-logo-container:hover {
+  opacity: 0.8;
+}
+
+.navbar-logo-container:hover .Clock .clock-face,
+.navbar-logo-container:hover .Clock .hour-hand,
+.navbar-logo-container:hover .Clock .minute-hand,
+.navbar-logo-container:hover .Clock .center-circle {
+  stroke: var(--primary-color);
+  opacity: 0.8;
+}
+
+.navbar-link.active {
+  color: var(--primary-color);
+}
