@@ -28,3 +28,7 @@ Access the Time Track app here: [Time Track](https://brianwang00001.github.io/ti
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+MIT
