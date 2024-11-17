@@ -1,6 +1,11 @@
 # Time Track
 
-Time Track is a simple web application that helps you visualize your time spent on various activities and do some editting. It allows you to upload your calendar data in ICS format, analyze your time allocation, and make adjustments to your data.
+Time Track is a simple web application that helps you visualize your time spent on various activities and do some editting. It allows you to upload your calendar data in ICS format, analyze your time allocation, and make adjustments to your data, such as renaming events and removing events.
+
+<p float="left">
+  <img src="assets/demo1.gif" height="400" alt="Left Description" style="margin-right: 10px"/>
+  <img src="assets/demo2.gif" height="400" alt="Right Description" />
+</p>
 
 ## Application
 
